@@ -10,9 +10,9 @@ export const metadata: Metadata = {
    manifest: "/manifest.json",
   themeColor: "#87CEEB",
   icons: [
-    { rel: "icon", url: "/icon-192.png" },
-    { rel: "apple-touch-icon", url: "/icon-512.png" }
-  ]
+    { rel: "icon", url: "/icons/app.png" },              
+    { rel: "apple-touch-icon", url: "/icons/app.png" }   
+  ],
 };
 
 export default function RootLayout({
